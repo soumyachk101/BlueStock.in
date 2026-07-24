@@ -1,0 +1,44 @@
+sharpe_rank,scheme_code,scheme_name,fund_house,category,sharpe_ratio,sortino_ratio,alpha_pct
+1,118151,SBI Mid Cap - Direct Plan - Growth,SBI Mutual Fund,Equity Scheme,1.75,2.95,25.87
+2,125497,,,,1.11,1.35,10.85
+3,123251,Mirae Liquid - Direct Plan - Growth,Mirae Asset Mutual Fund,Debt Scheme,1.08,1.8,11.08
+4,123701,DSP Flexi Cap - Direct Plan - Growth,DSP Mutual Fund,Equity Scheme,1.07,1.89,13.34
+5,120251,Nippon Aggressive Hybrid - Direct Plan - Growth,Nippon India Mutual Fund,Hybrid Scheme,0.98,1.73,12.8
+6,122501,UTI Flexi Cap - Direct Plan - Growth,UTI Mutual Fund,Equity Scheme,0.92,1.63,9.59
+7,121001,Axis Large Cap - Direct Plan - Growth,Axis Mutual Fund,Equity Scheme,0.82,1.39,7.88
+8,119351,ICICI Mid Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Equity Scheme,0.77,1.28,8.88
+9,122351,UTI Mid Cap - Direct Plan - Growth,UTI Mutual Fund,Equity Scheme,0.62,1.07,5.99
+10,120551,Kotak Mid Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Equity Scheme,0.55,0.87,1.74
+11,120851,Kotak Liquid - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Debt Scheme,0.54,0.89,3.22
+12,120101,Nippon Flexi Cap - Direct Plan - Growth,Nippon India Mutual Fund,Equity Scheme,0.5,0.83,2.42
+13,121151,Axis Mid Cap - Direct Plan - Growth,Axis Mutual Fund,Equity Scheme,0.44,0.75,3.19
+14,120701,Kotak Flexi Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Equity Scheme,0.43,0.74,0.96
+15,120401,Kotak Large Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Equity Scheme,0.4,0.69,0.45
+16,119501,ICICI Flexi Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Equity Scheme,0.37,0.61,-1.04
+17,121601,Aditya Large Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Equity Scheme,0.35,0.57,0.27
+18,118451,SBI Liquid - Direct Plan - Growth,SBI Mutual Fund,Debt Scheme,0.34,0.57,-0.9
+19,121301,Axis Flexi Cap - Direct Plan - Growth,Axis Mutual Fund,Equity Scheme,0.3,0.5,-1.22
+20,122051,Aditya Liquid - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Debt Scheme,0.23,0.41,-4.11
+21,118301,SBI Flexi Cap - Direct Plan - Growth,SBI Mutual Fund,Equity Scheme,0.21,0.36,-3.27
+22,118001,SBI Large Cap - Direct Plan - Growth,SBI Mutual Fund,Equity Scheme,0.16,0.29,-4.21
+23,123101,Mirae Flexi Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Equity Scheme,0.11,0.18,-5.09
+24,119951,Nippon Mid Cap - Direct Plan - Growth,Nippon India Mutual Fund,Equity Scheme,0.07,0.11,-5.81
+25,120503,,,,0.0,inf,inf
+26,119651,ICICI Liquid - Direct Plan - Growth,ICICI Prudential Mutual Fund,Debt Scheme,-0.05,-0.08,-7.62
+27,122801,Mirae Large Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Equity Scheme,-0.08,-0.14,-9.46
+28,118751,HDFC Mid Cap - Direct Plan - Growth,HDFC Mutual Fund,Equity Scheme,-0.09,-0.15,-8.05
+29,121751,Aditya Mid Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Equity Scheme,-0.09,-0.17,-9.19
+30,119201,ICICI Large Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Equity Scheme,-0.1,-0.16,-10.65
+31,119051,HDFC Aggressive Hybrid - Direct Plan - Growth,HDFC Mutual Fund,Hybrid Scheme,-0.19,-0.32,-12.6
+32,123401,DSP Large Cap - Direct Plan - Growth,DSP Mutual Fund,Equity Scheme,-0.23,-0.38,-9.72
+33,121901,Aditya Flexi Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Equity Scheme,-0.26,-0.43,-13.72
+34,122651,UTI Aggressive Hybrid - Direct Plan - Growth,UTI Mutual Fund,Hybrid Scheme,-0.28,-0.48,-13.11
+35,123851,DSP Aggressive Hybrid - Direct Plan - Growth,DSP Mutual Fund,Hybrid Scheme,-0.31,-0.51,-13.56
+36,121451,Axis Aggressive Hybrid - Direct Plan - Growth,Axis Mutual Fund,Hybrid Scheme,-0.35,-0.57,-13.95
+37,122201,UTI Large Cap - Direct Plan - Growth,UTI Mutual Fund,Equity Scheme,-0.41,-0.65,-13.04
+38,119801,Nippon Large Cap - Direct Plan - Growth,Nippon India Mutual Fund,Equity Scheme,-0.51,-0.85,-17.28
+39,118601,HDFC Large Cap - Direct Plan - Growth,HDFC Mutual Fund,Equity Scheme,-0.62,-1.0,-20.58
+40,119551,,,,-0.67,-0.38,-13.27
+41,123551,DSP Mid Cap - Direct Plan - Growth,DSP Mutual Fund,Equity Scheme,-0.82,-1.35,-24.21
+42,118901,HDFC Flexi Cap - Direct Plan - Growth,HDFC Mutual Fund,Equity Scheme,-0.84,-1.41,-23.79
+43,122951,Mirae Mid Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Equity Scheme,-0.9,-1.54,-22.99

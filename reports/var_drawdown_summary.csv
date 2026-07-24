@@ -1,0 +1,44 @@
+scheme_code,scheme_name,fund_house,sub_category,var_95_pct,max_drawdown_pct,ann_volatility_pct
+118001,SBI Large Cap - Direct Plan - Growth,SBI Mutual Fund,Large Cap Fund,-1.82,-24.56,18.63
+118151,SBI Mid Cap - Direct Plan - Growth,SBI Mutual Fund,Mid Cap Fund,-1.79,-17.15,19.03
+118301,SBI Flexi Cap - Direct Plan - Growth,SBI Mutual Fund,Flexi Cap Fund,-1.88,-17.91,18.69
+118451,SBI Liquid - Direct Plan - Growth,SBI Mutual Fund,Liquid Fund,-1.99,-32.0,19.24
+118601,HDFC Large Cap - Direct Plan - Growth,HDFC Mutual Fund,Large Cap Fund,-2.16,-44.29,19.32
+118751,HDFC Mid Cap - Direct Plan - Growth,HDFC Mutual Fund,Mid Cap Fund,-1.92,-23.05,18.62
+118901,HDFC Flexi Cap - Direct Plan - Growth,HDFC Mutual Fund,Flexi Cap Fund,-2.06,-50.2,19.29
+119051,HDFC Aggressive Hybrid - Direct Plan - Growth,HDFC Mutual Fund,Aggressive Hybrid Fund,-1.94,-32.26,19.43
+119201,ICICI Large Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Large Cap Fund,-2.08,-27.93,20.09
+119351,ICICI Mid Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Mid Cap Fund,-1.95,-24.73,19.71
+119501,ICICI Flexi Cap - Direct Plan - Growth,ICICI Prudential Mutual Fund,Flexi Cap Fund,-1.93,-24.11,18.24
+119551,,,,-0.1,-36.65,8.67
+119651,ICICI Liquid - Direct Plan - Growth,ICICI Prudential Mutual Fund,Liquid Fund,-1.82,-24.28,18.42
+119801,Nippon Large Cap - Direct Plan - Growth,Nippon India Mutual Fund,Large Cap Fund,-1.86,-36.3,18.52
+119951,Nippon Mid Cap - Direct Plan - Growth,Nippon India Mutual Fund,Mid Cap Fund,-1.96,-25.34,19.29
+120101,Nippon Flexi Cap - Direct Plan - Growth,Nippon India Mutual Fund,Flexi Cap Fund,-1.82,-25.71,18.46
+120251,Nippon Aggressive Hybrid - Direct Plan - Growth,Nippon India Mutual Fund,Aggressive Hybrid Fund,-1.9,-17.38,19.55
+120401,Kotak Large Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Large Cap Fund,-1.9,-20.1,19.26
+120503,,,,-39.93,-100.0,
+120551,Kotak Mid Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Mid Cap Fund,-1.96,-27.3,19.14
+120701,Kotak Flexi Cap - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Flexi Cap Fund,-1.81,-27.33,19.61
+120851,Kotak Liquid - Direct Plan - Growth,Kotak Mahindra Mutual Fund,Liquid Fund,-1.8,-16.5,18.68
+121001,Axis Large Cap - Direct Plan - Growth,Axis Mutual Fund,Large Cap Fund,-1.89,-27.14,19.23
+121151,Axis Mid Cap - Direct Plan - Growth,Axis Mutual Fund,Mid Cap Fund,-1.9,-19.59,19.18
+121301,Axis Flexi Cap - Direct Plan - Growth,Axis Mutual Fund,Flexi Cap Fund,-1.83,-21.73,18.64
+121451,Axis Aggressive Hybrid - Direct Plan - Growth,Axis Mutual Fund,Aggressive Hybrid Fund,-2.06,-32.01,19.46
+121601,Aditya Large Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Large Cap Fund,-1.9,-22.51,19.25
+121751,Aditya Mid Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Mid Cap Fund,-1.83,-38.11,18.29
+121901,Aditya Flexi Cap - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Flexi Cap Fund,-1.98,-27.8,19.51
+122051,Aditya Liquid - Direct Plan - Growth,Aditya Birla Sun Life Mutual Fund,Liquid Fund,-1.8,-32.96,18.06
+122201,UTI Large Cap - Direct Plan - Growth,UTI Mutual Fund,Large Cap Fund,-1.89,-35.01,18.09
+122351,UTI Mid Cap - Direct Plan - Growth,UTI Mutual Fund,Mid Cap Fund,-1.75,-23.58,18.26
+122501,UTI Flexi Cap - Direct Plan - Growth,UTI Mutual Fund,Flexi Cap Fund,-1.78,-16.5,19.06
+122651,UTI Aggressive Hybrid - Direct Plan - Growth,UTI Mutual Fund,Aggressive Hybrid Fund,-2.04,-38.82,19.43
+122801,Mirae Large Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Large Cap Fund,-1.94,-23.52,19.1
+122951,Mirae Mid Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Mid Cap Fund,-1.85,-47.83,18.71
+123101,Mirae Flexi Cap - Direct Plan - Growth,Mirae Asset Mutual Fund,Flexi Cap Fund,-2.07,-23.48,19.38
+123251,Mirae Liquid - Direct Plan - Growth,Mirae Asset Mutual Fund,Liquid Fund,-1.83,-15.43,19.25
+123401,DSP Large Cap - Direct Plan - Growth,DSP Mutual Fund,Large Cap Fund,-1.98,-26.64,18.65
+123551,DSP Mid Cap - Direct Plan - Growth,DSP Mutual Fund,Mid Cap Fund,-2.16,-50.49,20.07
+123701,DSP Flexi Cap - Direct Plan - Growth,DSP Mutual Fund,Flexi Cap Fund,-1.8,-14.44,19.42
+123851,DSP Aggressive Hybrid - Direct Plan - Growth,DSP Mutual Fund,Aggressive Hybrid Fund,-2.03,-28.55,19.94
+125497,,,,-1.51,-40.26,15.17
