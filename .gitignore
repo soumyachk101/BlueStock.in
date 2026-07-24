@@ -5,3 +5,6 @@ data/processed/*
 __pycache__/
 .venv/
 .ipynb_checkpoints/
+*.pptx
+create_presentation.py
+reports/presentation_deck_script.md
