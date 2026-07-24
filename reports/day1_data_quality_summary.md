@@ -1,32 +1,32 @@
-# Day 1 Data Quality & Ingestion Summary Report
+# Day 1 Data Quality Summary Report
 
-## Overview
-- **Total Datasets Ingested**: 10
-- **Ingestion Status**: Completed successfully
+## 1. Executive Overview
+- **Total CSV Datasets Loaded**: 10
+- **Status**: Ingestion and Data Quality Inspection Complete
 
-## Dataset Summary & Metrics
+## 2. Dataset Shapes, Null Counts & Duplicate Rows Summary
 
-| Dataset Variable Name | Rows | Columns | Duplicate Rows | Null Value Columns | Data Type Anomalies |
+| Dataset Variable | File Name | Shape (Rows x Cols) | Duplicates | Null Counts per Column | Suspicious Data Types |
 | --- | --- | --- | --- | --- | --- |
-| `df_axis_bluechip_nav_raw` | 3602 | 2 | 0 | None | None |
-| `df_hdfc_top_100_direct_nav_raw` | 3128 | 2 | 0 | None | None |
-| `df_icici_bluechip_nav_raw` | 3344 | 2 | 0 | None | None |
-| `df_kotak_bluechip_nav_raw` | 3338 | 2 | 0 | None | None |
-| `df_nippon_large_cap_nav_raw` | 3335 | 2 | 0 | None | None |
-| `df_sbi_bluechip_nav_raw` | 3273 | 2 | 0 | None | None |
-| `df_fund_master` | 7 | 7 | 0 | None | None |
-| `df_nav_history` | 7 | 5 | 0 | None | None |
-| `df_scheme_categories` | 5 | 4 | 0 | None | None |
-| `df_amc_details` | 6 | 4 | 0 | None | None |
+| `fund_master` | `01_fund_master.csv` | 7 x 7 | 0 | None | None |
+| `nav_history` | `02_nav_history.csv` | 7 x 5 | 0 | None | None |
+| `aum_by_fund_house` | `03_aum_by_fund_house.csv` | 6 x 4 | 0 | None | None |
+| `monthly_sip` | `04_monthly_sip.csv` | 6 x 4 | 0 | None | None |
+| `category_inflows` | `05_category_inflows.csv` | 5 x 4 | 0 | None | None |
+| `folio_count` | `06_folio_count.csv` | 6 x 6 | 0 | None | None |
+| `scheme_performance` | `07_scheme_performance.csv` | 6 x 7 | 0 | None | None |
+| `transactions` | `08_transactions.csv` | 5 x 8 | 0 | None | None |
+| `holdings` | `09_holdings.csv` | 5 x 5 | 0 | None | None |
+| `benchmark` | `10_benchmark.csv` | 5 x 6 | 0 | None | None |
 
-## AMFI Scheme Code Validation
-- **Scheme Codes in Fund Master missing from NAV History**: `[140001]`
-- **Scheme Codes in NAV History missing from Fund Master**: `[199999]`
+## 3. AMFI Scheme Code Validation
+- **Scheme Codes in `fund_master` missing from `nav_history`**: `[140001]`
+- **Scheme Codes in `nav_history` missing from `fund_master`**: `[199999]`
 
-## Key Observations & Findings
-1. **Live NAV Data**: Successfully retrieved historical daily NAV records for 6 primary benchmark schemes from `mfapi.in`.
-2. **Data Types**: Date fields in raw CSVs are represented as strings (`object` type) and will require parsing to `datetime64` in subsequent preprocessing steps.
-3. **Completeness**: No missing critical values or duplicate records detected in the primary raw datasets.
+## 4. Key Observations & Next Steps
+1. **Date Types**: All date fields are ingested as string/object dtypes and will be parsed into `datetime64` in the data cleaning phase.
+2. **Integrity**: No duplicate rows or missing values were found across the datasets.
+3. **Cross-Validation**: AMFI scheme code mismatches were cataloged for further alignment during data transformations.
 
 ---
-*Report generated automatically by data_ingestion.py*
+*Report generated automatically by `data_ingestion.py`*
