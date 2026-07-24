@@ -1,32 +1,27 @@
 # Day 1 Data Quality Summary Report
 
-## 1. Executive Overview
-- **Total CSV Datasets Loaded**: 10
-- **Status**: Ingestion and Data Quality Inspection Complete
+## Overview
+Completed initial data ingestion and quality checks on all 10 raw CSV datasets.
 
-## 2. Dataset Shapes, Null Counts & Duplicate Rows Summary
+## Dataset Summary
 
-| Dataset Variable | File Name | Shape (Rows x Cols) | Duplicates | Null Counts per Column | Suspicious Data Types |
-| --- | --- | --- | --- | --- | --- |
-| `fund_master` | `01_fund_master.csv` | 7 x 7 | 0 | None | None |
-| `nav_history` | `02_nav_history.csv` | 7 x 5 | 0 | None | None |
-| `aum_by_fund_house` | `03_aum_by_fund_house.csv` | 6 x 4 | 0 | None | None |
-| `monthly_sip` | `04_monthly_sip.csv` | 6 x 4 | 0 | None | None |
-| `category_inflows` | `05_category_inflows.csv` | 5 x 4 | 0 | None | None |
-| `folio_count` | `06_folio_count.csv` | 6 x 6 | 0 | None | None |
-| `scheme_performance` | `07_scheme_performance.csv` | 6 x 7 | 0 | None | None |
-| `transactions` | `08_transactions.csv` | 5 x 8 | 0 | None | None |
-| `holdings` | `09_holdings.csv` | 5 x 5 | 0 | None | None |
-| `benchmark` | `10_benchmark.csv` | 5 x 6 | 0 | None | None |
+| Dataset | Rows | Columns | Duplicate Rows | Null Columns |
+| --- | --- | --- | --- | --- |
+| `fund_master` | 7 | 7 | 0 | 0 |
+| `nav_history` | 7 | 5 | 0 | 0 |
+| `aum_by_fund_house` | 6 | 4 | 0 | 0 |
+| `monthly_sip` | 6 | 4 | 0 | 0 |
+| `category_inflows` | 5 | 4 | 0 | 0 |
+| `folio_count` | 6 | 6 | 0 | 0 |
+| `scheme_performance` | 6 | 7 | 0 | 0 |
+| `transactions` | 5 | 8 | 0 | 0 |
+| `holdings` | 5 | 5 | 0 | 0 |
+| `benchmark` | 5 | 6 | 0 | 0 |
 
-## 3. AMFI Scheme Code Validation
-- **Scheme Codes in `fund_master` missing from `nav_history`**: `[140001]`
-- **Scheme Codes in `nav_history` missing from `fund_master`**: `[199999]`
+## AMFI Code Validation Results
+- Codes in fund_master missing in nav_history: `[140001]`
+- Codes in nav_history missing in fund_master: `[199999]`
 
-## 4. Key Observations & Next Steps
-1. **Date Types**: All date fields are ingested as string/object dtypes and will be parsed into `datetime64` in the data cleaning phase.
-2. **Integrity**: No duplicate rows or missing values were found across the datasets.
-3. **Cross-Validation**: AMFI scheme code mismatches were cataloged for further alignment during data transformations.
-
----
-*Report generated automatically by `data_ingestion.py`*
+## Initial Findings
+1. Data is clean with no missing values or duplicate records.
+2. Date columns are imported as strings/objects and will be cast to datetime format in Day 2 preprocessing.
