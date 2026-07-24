@@ -1,33 +1,29 @@
-"""
-Notebook 03: Demographics & Benchmark Analytics
-Bluestock Mutual Fund Analytics Platform
-"""
+# Notebook 03: Demographics & Regional Inflows Analysis
+# Author: Soumya Chakraborty
 
-import os
 import sqlite3
 import pandas as pd
 
 DB_PATH = "data/processed/mf_analytics.db"
 
-def run_demographics_benchmark():
+def main():
     conn = sqlite3.connect(DB_PATH)
     
-    print("--- 1. Investor Age Demographics & SIP Breakdown ---")
+    print("--- Investor Age Breakdown ---")
     df_age = pd.read_sql("""
         SELECT investor_age_group, 
-               COUNT(DISTINCT investor_id) as investor_count,
-               SUM(amount) as total_invested,
-               AVG(amount) as avg_ticket_size
+               COUNT(DISTINCT investor_id) as total_investors,
+               SUM(amount) as total_invested_inr
         FROM fact_transactions
         GROUP BY investor_age_group
-        ORDER BY investor_count DESC
+        ORDER BY total_investors DESC
     """, conn)
     print(df_age)
     
-    print("\n--- 2. Top 5 Investor States ---")
+    print("\n--- Top States by Investment Volume ---")
     df_states = pd.read_sql("""
         SELECT investor_state, 
-               COUNT(DISTINCT investor_id) as investor_count,
+               COUNT(DISTINCT investor_id) as investors,
                SUM(amount) as total_amount
         FROM fact_transactions
         GROUP BY investor_state
@@ -36,17 +32,7 @@ def run_demographics_benchmark():
     """, conn)
     print(df_states)
     
-    print("\n--- 3. City Tier Inflow Dynamics ---")
-    df_tier = pd.read_sql("""
-        SELECT city_tier,
-               COUNT(transaction_id) as txn_count,
-               SUM(amount) as volume_amount
-        FROM fact_transactions
-        GROUP BY city_tier
-    """, conn)
-    print(df_tier)
-    
     conn.close()
 
 if __name__ == "__main__":
-    run_demographics_benchmark()
+    main()
